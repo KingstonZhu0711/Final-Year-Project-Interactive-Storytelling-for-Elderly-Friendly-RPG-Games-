@@ -1,0 +1,8 @@
+BERTScore Evaluation Report - ENGLISH VERSION - 2026-04-12 18:18
+Story File      : story_20260412_181706.txt
+Theme           : modern living life
+Precision (P)   : 0.8409
+Recall (R)      : 0.8321
+F1 Score        : 0.8365
+
+Gold Standard Used: gold_modern_living.txt
