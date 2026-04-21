@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Your Story</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-size: 18px; }
+        .theme-card { transition: all 0.2s; }
+        .theme-card.selected {
+            border-color: #4f46e5;
+            background-color: #f0f0ff;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body class="bg-white min-h-screen flex flex-col items-center justify-center font-sans p-8">
+
+    <div class="max-w-2xl w-full bg-white rounded-3xl shadow-2xl p-10 text-center">
+        <!-- University name at top -->
+        <p class="text-sm font-medium text-gray-500 mb-1">The Hong Kong Polytechnic University</p>
+        <h1 class="text-4xl font-bold text-gray-800 mb-2">Interactive Storytelling for Elderly-Friendly RPG Games</h1>
+        <p class="text-2xl text-gray-600 mb-10">By Zhu Jin Shun</p>
+
+        <form id="storyForm" action="/" method="POST">
+            <input type="hidden" id="topic" name="topic" value="">
+
+            <div class="mb-8">
+                <h2 class="text-2xl font-semibold mb-4 text-gray-700">Choose your story theme</h2>
+                <div class="grid grid-cols-3 gap-4">
+                    <div onclick="selectTheme(this, 'peaceful village')" class="theme-card cursor-pointer border-4 border-transparent bg-white hover:border-emerald-200 text-emerald-700 font-medium py-6 rounded-2xl text-center">
+                        Peaceful Village Life
+                    </div>
+                    <div onclick="selectTheme(this, 'romantic')" class="theme-card cursor-pointer border-4 border-transparent bg-white hover:border-pink-200 text-pink-700 font-medium py-6 rounded-2xl text-center">
+                        Romantic Love Story
+                    </div>
+                    <div onclick="selectTheme(this, 'modern living life')" class="theme-card cursor-pointer border-4 border-transparent bg-white hover:border-blue-200 text-blue-700 font-medium py-6 rounded-2xl text-center">
+                        Modern Living Life
+                    </div>
+                </div>
+            </div>
+
+            <div class="mb-8">
+                <h2 class="text-2xl font-semibold mb-4 text-gray-700">How long should the story be?</h2>
+                <select name="length" class="w-full text-xl p-4 border-4 border-gray-300 rounded-2xl focus:outline-none focus:border-indigo-500">
+                    <option value="8">Less than 10 segments</option>
+                    <option value="15" selected>10-20 segments</option>
+                    <option value="25">More than 20 segments</option>
+                </select>
+                <div class="mt-6">
+                    <label class="block text-xl mb-2">Or type exact number of segments:</label>
+                    <input type="number" name="length_custom" min="5" max="50" value="15" class="w-full text-center text-xl p-4 border-4 border-gray-300 rounded-2xl">
+                </div>
+            </div>
+
+            <button type="submit" class="mt-8 w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-2xl py-6 rounded-3xl transition">
+                Start Story
+            </button>
+        </form>
+    </div>
+
+    <script>
+        function selectTheme(element, value) {
+            document.querySelectorAll('.theme-card').forEach(card => card.classList.remove('selected'));
+            element.classList.add('selected');
+            document.getElementById('topic').value = value;
+        }
+    </script>
+</body>
+</html>

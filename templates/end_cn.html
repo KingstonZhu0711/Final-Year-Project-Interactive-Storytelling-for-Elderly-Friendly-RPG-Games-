@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>故事結束</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-size: 18px; }
+    </style>
+</head>
+<body class="bg-white min-h-screen flex flex-col items-center justify-center font-sans p-8">
+
+    <div class="max-w-3xl w-full bg-white rounded-3xl shadow-2xl p-10 text-center">
+        <!-- Smaller THE END -->
+        <div class="inline-block border-8 border-amber-400 rounded-3xl px-14 py-5 mb-8">
+            <h1 class="text-4xl font-bold tracking-widest text-gray-800">故事結束</h1>
+        </div>
+
+        <!-- Larger Positive Ending Summary -->
+        <div class="bg-emerald-50 border border-emerald-200 rounded-3xl p-16 mb-10 text-left">
+            <p class="text-xl leading-relaxed text-gray-700 whitespace-pre-wrap">{{ positive_ending }}</p>
+        </div>
+
+        <!-- Log message -->
+        <div class="bg-gray-100 rounded-3xl p-6 mb-10">
+            <p class="text-base text-gray-600">您的完整故事記錄已自動儲存至：</p>
+            <p class="mt-2 font-mono text-sm text-indigo-700 break-words">
+                C:\Users\Zhu Jin Shun\Desktop\COMP 4913 Capstone Project\FYP Work\Work\Code\elderly-rpg-prototype\log
+            </p>
+        </div>
+
+        <!-- Buttons -->
+        <div class="flex gap-6">
+            <a href="/" class="flex-1 px-12 py-6 text-2xl font-bold border-4 border-emerald-500 hover:bg-emerald-500 hover:text-white rounded-3xl transition">
+                播放另一個故事
+            </a>
+            <button onclick="window.close()" class="flex-1 px-12 py-6 text-2xl font-bold border-4 border-red-500 hover:bg-red-500 hover:text-white rounded-3xl transition">
+                結束
+            </button>
+        </div>
+    </div>
+
+    <!-- Bottom credit -->
+    <div class="mt-12 text-center text-gray-500 text-sm">
+        香港理工大學<br>
+        互動式長者友好RPG故事創作系統<br>
+        作者：朱金順
+    </div>
+
+</body>
+</html>
