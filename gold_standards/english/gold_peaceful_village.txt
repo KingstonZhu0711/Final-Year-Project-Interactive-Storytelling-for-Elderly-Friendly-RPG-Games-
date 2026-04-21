@@ -1,0 +1,181 @@
+[Morning light over broken cottages. Birds sing softly.] Elder: "The war is over now. The village is quiet."
+[He leans on his cane and looks at the ruined roofs.] Elder: "We must fix these homes. We will do it together."
+[A young helper carries a toolbox.] Helper: "I can climb the ladders. You can guide me."
+[They walk to a half-broken house.] Elder: "We start with this roof. The family will sleep well tonight."
+[Sunlight warms their backs.] Helper: "I feel hope again."
+Elder: "Yes. One nail at a time."
+
+1. Help them fix the roof
+2. Bring water and tea
+3. Visit another neighbor in need
+
+
+[Soft breeze through the village square. Tables are set outside.] Grandmother: "We will cook together today. The whole village will eat."
+[Children run past, laughing.] Child: "Can I help stir the soup?"
+Grandmother: "Yes, dear. Your hands are small, but your heart is big."
+[Steam rises from a large pot.] Neighbor: "The smell is so good. It feels like old times."
+[They place bread in baskets.] Grandmother: "We share what we have. That is how we heal."
+Neighbor: "We are lucky to have each other."
+
+1. Help with chopping vegetables
+2. Play with the children nearby
+3. Deliver bowls of soup to elders
+
+
+[Afternoon sunshine on the village path. Dust glows in the light.] Old Friend: "These stones are loose. Someone might fall."
+[He kneels slowly, touching the ground.] Old Friend: "My legs are not fast, but my hands still work."
+[Another elder arrives with a basket of flowers.] Old Woman: "I will sit with you. We can fix and talk."
+Old Friend: "We walked this path as children. We will mend it as elders."
+[They place stones, one by one.] Old Woman: "The path will be safe. And beautiful with flowers."
+
+1. Help place the stones
+2. Bring more flowers from the field
+3. Sit and listen to their stories
+
+
+[Soft wind in a garden behind a small house.] Grandfather: "The war took my tools. But not my will."
+[He holds a tiny seed in his hand.] Grandfather: "This seed will become a flower. You will see."
+[Younger neighbor kneels beside him.] Neighbor: "I found this old watering can. It still works."
+Grandfather: "Good. The earth is ready. The sun is kind today."
+[They plant rows of seeds.] Neighbor: "The village will be full of color."
+Grandfather: "Yes. Flowers tell us life goes on."
+
+1. Help plant more seeds
+2. Fetch water for the garden
+3. Visit another home to ask who needs help
+
+
+[Children play near a clear stream. Laughter echoes.] Child: "Look, I made a little boat from scraps."
+[He places it on the water.] Child: "Sail, little boat. Find peace."
+[An older woman watches from a rock.] Old Woman: "You children bring light to this place."
+Child: "Will you tell us a story from before the war?"
+Old Woman: "I will tell a happy one. About music and dancing."
+[Children sit in a circle.] Old Woman: "One day, you will tell your own happy stories too."
+
+1. Join the children and listen to the story
+2. Help the children make more boats
+3. Go invite lonely neighbors to come to the stream
+
+
+[Quiet lane with half-built walls. The sky is clear and warm.] Carpenter: "We have little wood, but we will use every piece."
+[He hands a small board to you.] Carpenter: "Hold this steady. My hands shake a bit."
+[An older woman brings nails in a small box.] Older Woman: "I saved these. I knew we would rebuild."
+Carpenter: "Thank you. Together we make a safe home."
+[Hammer taps echo softly.] Older Woman: "Soon a family will laugh here again."
+Carpenter: "Walls are not just wood. They are comfort."
+
+1. Keep helping with the building
+2. Go search for more wood and nails
+3. Visit the family who will live here
+
+
+[Village well in the center square. Sunlight reflects on the water.] Elder: "The well is our heart. We must keep it clean."
+[He lowers the bucket slowly.] Elder: "Many hands have used this rope."
+[Young girl stands with a basket of cups.] Girl: "I will give water to everyone who passes."
+Elder: "Good child. Water brings life. And brings people together."
+[A neighbor arrives, tired from work.] Neighbor: "This drink feels like a blessing."
+Girl: "There is enough for all of us."
+
+1. Help the girl serve water
+2. Sit by the well and talk with visitors
+3. Carry water to those who cannot walk here
+
+
+[Soft evening light over a small field.] Farmer: "The soil is poor this year. But we will not give up."
+[He spreads compost with slow, careful steps.] Farmer: "The land has seen war. Now it will see care."
+[Young boy follows, dropping seeds.] Boy: "I want to help the village eat again."
+Farmer: "You are doing well. Each seed is a promise."
+[Birds call gently above.] Boy: "I like this quiet."
+Farmer: "Quiet is a gift. We must protect it."
+
+1. Help spread compost and seeds
+2. Bring simple tools from the shed
+3. Visit nearby farms to share ideas
+
+
+[Old schoolhouse with broken windows. Sunlight through the glass.] Retired Teacher: "This room was full of voices once."
+[He brushes dust from a desk.] Retired Teacher: "We will hear them again."
+[Several children stand in the doorway.] Child: "Can we learn here today?"
+Retired Teacher: "Yes. We will start with songs."
+[He writes a simple word on the board.] Retired Teacher: "Hope. This is our most important lesson."
+Children: "Hope."
+[Their voices are soft but clear.] Retired Teacher: "Good. The village is learning again."
+
+1. Help clean the schoolhouse
+2. Sit with the children and join the lesson
+3. Go invite more children to school
+
+
+[Long wooden table in a courtyard. Evening sky turns gold.] Village Cook: "We will make a big stew. Everyone brings something."
+[Neighbors arrive with small gifts: potatoes, herbs, beans.] Neighbor: "It is not much. But it is from my heart."
+Village Cook: "Together, it is plenty."
+[Pot bubbles gently. People set out simple plates.] Elder: "We did not have this during the war."
+Child: "Now we share and smile."
+[They sit close, passing bread.] Village Cook: "This is our new life. Warm and kind."
+
+1. Help serve the food
+2. Sit and talk with a shy neighbor
+3. Take a bowl to someone who stayed home
+
+
+[Quiet street lined with damaged doors. The sky is soft blue.] Carpenter: "Many doors are broken. People need safety."
+[He measures a doorway.] Carpenter: "A good door means good rest."
+[An elderly woman watches from a chair.] Elderly Woman: "I have not slept well in years."
+Carpenter: "Tonight will be better."
+[He fits a simple wooden door into place.] Elderly Woman: "It is plain. But it is strong."
+Carpenter: "Strong and kind. Like you."
+[She smiles slowly.] Elderly Woman: "I feel at home again."
+
+1. Help carry doors to other houses
+2. Sit with the woman and share tea
+3. Go ask who else needs a door fixed
+
+
+[Small square with a broken bench. Flowers grow through cracks.] Old Man: "We used to sit here and play cards."
+[He touches the worn wood.] Old Man: "The bench is tired. So am I. But we can fix both."
+[Younger neighbor brings tools.] Neighbor: "Let us sand it and make it smooth again."
+Old Man: "Then we will sit. And laugh a little."
+[They repair the bench together.] Neighbor: "There. It is ready."
+Old Man: "Now the village has a place to rest and remember."
+
+1. Sit and listen to their memories
+2. Bring others to share the bench
+3. Go find paint to brighten the wood
+
+
+[Path beside blooming bushes. The air smells sweet.] Widow: "I planted these flowers for my husband."
+[She gently touches a petal.] Widow: "The war took him. But I keep his love here."
+[Neighbor walks beside her.] Neighbor: "You cared for these flowers so well."
+Widow: "They remind me that beauty returns."
+Neighbor: "You remind us too. You still smile."
+Widow: "Some days are hard. But the village holds me."
+[They walk slowly, side by side.] Widow: "We will keep walking. Together."
+
+1. Offer to help tend the flowers
+2. Invite her to join the next village meal
+3. Go bring a small gift from another neighbor
+
+
+[Open yard with simple chairs in a circle. Sun is low and warm.] Elder: "Tonight we share stories. Only gentle ones."
+[People of all ages sit down.] Elder: "No stories of war. Only of kindness."
+[Young woman speaks.] Young Woman: "I remember when we all baked bread for a sick neighbor."
+[Soft laughter and nods.] Old Man: "I remember a song we used to sing."
+[He hums. Others join quietly.] Elder: "We build our future with these memories."
+[Crickets begin to sing too.] Elder: "The night is friendly."
+
+1. Share your own kind memory
+2. Just listen and enjoy the stories
+3. Go invite someone who is alone at home
+
+
+[Small house with broken window. Light spills from inside.] Old Couple: "We lost the glass. But not our warmth."
+[They sit at a small table with simple tea.] Old Man: "We are making extra tea. In case someone visits."
+Old Woman: "We have little sugar. But much love."
+[You knock and step in.] Old Woman: "Welcome. Sit. Rest a while."
+Old Man: "We talk about the future now. Not the past."
+[Steam rises from the cups.] Old Woman: "Each visitor is a gift."
+Old Man: "Each day is, too."
+
+1. Stay and talk with them
+2. Help fix their broken window
+3. Go invite others to join this cozy visit
