@@ -1,2 +1,44 @@
-# Final-Year-Project-Interactive-Storytelling-for-Elderly-Friendly-RPG-Games-
-This is an AI-powered interactive storytelling system for elderly users. Generates calm, positive RPG-style stories in English and Chinese with large fonts, slow voice narration, and simple choices.  Built with local LLMs (Ollama), Flask, and gTTS. Includes BERTScore evaluation.   COMP4913 Capstone Project - The Hong Kong Polytechnic University
+# Interactive Storytelling for Elderly-Friendly RPG Games
+
+**COMP4913 Capstone Project**  
+**Author:** Zhu Jin Shun (22101071d)  
+**The Hong Kong Polytechnic University**  
+**April 2026**
+
+An elderly-friendly AI-powered RPG storytelling system that generates calm, positive, and accessible interactive stories in both English and Chinese.
+
+### Key Features
+- Dual-language support (English & Chinese)
+- Three calming themes: Peaceful Village, Romantic, Modern Living Life
+- Adjustable story length
+- Large fonts (18pt+) and high-contrast UI for seniors
+- Slow-speed voice narration
+- Rolling history summary for story coherence
+- BERTScore automatic evaluation
+
+---
+
+## How to Run the Project
+
+### 1. Install Ollama
+Download and install Ollama: [https://ollama.com/download](https://ollama.com/download)
+
+Then pull the models in terminal:
+```bash
+ollama pull llama3.1:8b     # English
+ollama pull qwen2:7b        # Chinese
+
+git clone https://github.com/yourusername/elderly-rpg-storytelling.git
+cd elderly-rpg-storytelling
+
+# Create virtual environment
+python -m venv venv
+venv\Scripts\activate     # Windows
+
+pip install -r requirements.txt
+
+English Version:
+python app_eng.py
+
+Chinese Version:
+python app_cn.py
