@@ -28,7 +28,8 @@ Then pull the models in terminal:
 ollama pull llama3.1:8b     # English
 ollama pull qwen2:7b        # Chinese
 
-git clone https://github.com/yourusername/elderly-rpg-storytelling.git
+### 2. Clone & Setup
+Bashgit clone https://github.com/yourusername/elderly-rpg-storytelling.git
 cd elderly-rpg-storytelling
 
 # Create virtual environment
@@ -37,8 +38,11 @@ venv\Scripts\activate     # Windows
 
 pip install -r requirements.txt
 
+### 3. Run the Application
 English Version:
-python app_eng.py
-
+Bashpython app_eng.py
 Chinese Version:
-python app_cn.py
+Bashpython app_cn.py
+
+English: Open http://127.0.0.1:5000
+Chinese: Open http://127.0.0.1:5001
