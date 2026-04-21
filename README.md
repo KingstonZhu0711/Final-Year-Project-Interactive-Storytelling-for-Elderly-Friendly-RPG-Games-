@@ -1,74 +1,92 @@
-# Interactive Storytelling for Elderly-Friendly RPG Games
+# 🎭 Interactive Storytelling for Elderly-Friendly RPG Games
 
-**COMP4913 Capstone Project**  
-**Author:** Zhu Jin Shun (22101071d)  
-**The Hong Kong Polytechnic University**  
-**April 2026**
-
-An elderly-friendly AI-powered RPG storytelling system that generates calm, positive, and accessible interactive stories in both English and Chinese.
-
-### Key Features
-- Dual-language support (English & Chinese)
-- Three calming themes: Peaceful Village Life, Romantic Love Story, Modern Living Life
-- Adjustable story length
-- Large fonts (18pt+) and high-contrast UI designed for seniors
-- Slow-speed voice narration
-- Rolling history summary to maintain story coherence
-- BERTScore for automatic evaluation
+**Capstone Project (COMP4913)** | **The Hong Kong Polytechnic University**  
+**Author:** Zhu Jin Shun (22101071d) | **Date:** April 2026
 
 ---
 
-## How to Run the Project
+## 🌟 Overview
+An AI-powered RPG storytelling system specifically designed for senior citizens. This project focuses on accessibility, cognitive ease, and emotional well-being by generating calm, positive, and engaging interactive narratives in both English and Chinese.
 
-### Step 1: Install Ollama
-1. Download and install Ollama from: https://ollama.com/download
-2. Open terminal/command prompt and pull the models:
+### ✨ Key Features
+*   **Dual-Language Support:** Full localization for English and Chinese audiences.
+*   **Calming Themes:** Curated story paths including *Peaceful Village Life*, *Romantic Love Story*, and *Modern Living*.
+*   **Elderly-Centric UI:** Large fonts (18pt+), high-contrast elements, and simplified navigation.
+*   **Voice Integration:** Slow-speed text-to-speech (TTS) narration for easier comprehension.
+*   **Memory Coherence:** Uses rolling history summaries to ensure the AI doesn't lose the plot during long sessions.
+*   **Quality Assurance:** Automatic story evaluation using **BERTScore**.
 
-```bash
-ollama pull llama3.1:8b     # English version
-ollama pull qwen2:7b        # Chinese version
-Step 2: Clone and Setup
-Bashgit clone https://github.com/yourusername/elderly-rpg-storytelling.git
-cd elderly-rpg-storytelling
+---
 
-python -m venv venv
-venv\Scripts\activate        # On Windows
+## 🛠️ Technologies Used
+*   **Backend:** Python, Flask
+*   **AI/LLM:** Ollama (Llama 3.1 & Qwen2), LangChain
+*   **TTS:** gTTS (Google Text-to-Speech)
+*   **Evaluation:** BERTScore
+*   **Frontend:** HTML5, CSS3 (High-Contrast), JavaScript
 
-pip install -r requirements.txt
-Step 3: Run the Application
-English Version:
-Bashpython app_eng.py
-Chinese Version:
-Bashpython app_cn.py
+---
 
-English: http://127.0.0.1:5000
-Chinese: http://127.0.0.1:5001
+## 🚀 Getting Started
 
+### Prerequisites
+1.  **Install Ollama:** Download from [ollama.com](https://ollama.com/download)
+2.  **Download Models:** Open your terminal and run:
+    ```bash
+    ollama pull llama3.1:8b  # For the English version
+    ollama pull qwen2:7b     # For the Chinese version
+    ```
 
-How to Use
+### Installation
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/yourusername/elderly-rpg-storytelling.git
+    cd elderly-rpg-storytelling
+    ```
+2.  **Set up a virtual environment:**
+    ```bash
+    python -m venv venv
+    # Windows:
+    venv\Scripts\activate
+    # macOS/Linux:
+    source venv/bin/activate
+    ```
+3.  **Install dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-Select a theme (Peaceful Village, Romantic, or Modern Living Life)
-Choose the number of scenes
-Click Start Story
-Read or listen to each scene (click the speaker icon for voice)
-Choose one of the 2–3 simple options
-Continue until the warm ending appears
+### Running the Application
+The project runs as two separate Flask instances for English and Chinese:
 
-All stories and audio files are automatically saved in timestamped folders.
+| Language | Command | Local URL |
+| :--- | :--- | :--- |
+| **English** | `python app_eng.py` | `http://127.0.0.1:5000` |
+| **Chinese** | `python app_cn.py` | `http://127.0.0.1:5001` |
 
-Project Structure
+---
 
-app_eng.py → English version
-app_cn.py → Chinese version
-bert_eng.py / bert_cn.py → BERTScore evaluation
-static/audio/ → Generated voice files
-log/ and history/ → Saved story logs
+## 📖 How to Play
+1.  **Select a Theme:** Choose from Village, Romantic, or Modern life.
+2.  **Adjust Settings:** Select the number of scenes for your story length.
+3.  **Start Story:** Click the "Start" button.
+4.  **Interact:** 
+    *   Read the text or click the **Speaker Icon** for audio narration.
+    *   Select one of the 2–3 simplified choices provided at the end of each scene.
+5.  **Completion:** Enjoy a warm, positive ending designed to leave the user feeling relaxed.
 
+---
 
-Technologies Used
+## 📂 Project Structure
+```text
+├── app_eng.py          # Flask application (English)
+├── app_cn.py           # Flask application (Chinese)
+├── bert_eng.py         # BERTScore evaluation scripts
+├── bert_cn.py          # BERTScore evaluation scripts
+├── static/
+│   └── audio/          # Generated TTS voice files
+├── log/                # Full story logs
+├── history/            # Saved story summaries
+└── requirements.txt    # Project dependencies
 
-Flask (Web Framework)
-Ollama + LangChain (Local LLMs)
-gTTS (Text-to-Speech)
-BERTScore (Evaluation)
 Tailwind CSS (UI)
