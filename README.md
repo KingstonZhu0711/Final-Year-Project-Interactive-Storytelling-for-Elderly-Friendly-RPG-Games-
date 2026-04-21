@@ -1,0 +1,2 @@
+# Final-Year-Project-Interactive-Storytelling-for-Elderly-Friendly-RPG-Games-
+This is an AI-powered interactive storytelling system for elderly users. Generates calm, positive RPG-style stories in English and Chinese with large fonts, slow voice narration, and simple choices.  Built with local LLMs (Ollama), Flask, and gTTS. Includes BERTScore evaluation.   COMP4913 Capstone Project - The Hong Kong Polytechnic University
